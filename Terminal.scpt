@@ -2,7 +2,7 @@ tell application "Terminal"
     set terminal to window 1
 
     # Task for Tab 1
-    do script "gulp build" in terminal
+    do script "cd ~/Projects; gulp build" in terminal
 
     # Open a new tab.
     tell application "System Events" to tell process "Terminal" to keystroke "t" using command down
