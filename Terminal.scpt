@@ -1,4 +1,5 @@
 tell application "Terminal"
+    activate
     set terminal to window 1
 
     # Task for Tab 1
